@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: aqua;
+        }
+
+        #s{
+            width: max-content;
+            height: 200px;
+            position: absolute;
+            /* background-color: black; */
+            color: black;
+            font-size: 120px;
+            animation: sb 3s linear forwards;
+            /* background-color: yellow; */
+            margin-top: 300px;
+           
+        }
+        @keyframes sb{
+            0%{
+                right:-100%
+            }
+            100%{
+                right:20%
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 id="s">thank you for shopping</h2>
+</body>
+</html>
